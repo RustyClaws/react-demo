@@ -1,0 +1,73 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.img_round {
+  width: 50px;
+  border-radius: 50% 50%;
+  border: 2px dotted;
+  border-color: #ecf5f7;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  cursor: pointer;
+}
+
+ .app-container {
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #333; /* 默认文字颜色 */
+  /* position: relative; */
+
+} 
+.page-container {
+  margin: 0 auto;
+}
+
+.nav {
+  /* margin-top: 8vh; */
+  height: auto;
+  width: 800px;
+  display: contents;
+  
+}
+
+.h-bar {
+  /* color: #588ae7; */
+  /* text-shadow: 2px 2px 3px #a0d1ee; */
+  width: max-content;
+  margin: 1vh 3vh;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  display: inline-flex;   
+  /* 元素排一行 */
+}
+.h-bar:hover {
+  color: #588ae7;
+  text-shadow: 2px 2px 3px #a0d1ee;
+  cursor: pointer;
+}
+
+.contentBox {
+  width: auto;
+  min-height: 800px;
+}
+
+
+/* ==== animation ==== */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+ }
+

@@ -1,0 +1,73 @@
+/* content1 css  background: linear-gradient(to bottom, rgb(241,255,202), rgb(153,250,255));   */
+.box{
+    /* margin: auto 0; */
+    height: 240px;
+    /* padding: auto; */
+    width: 400px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    background: #f9f9f9;
+    /* 确保容器有最小高度 */
+}
+
+.title-text {
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #d4ff80, #00e2dc ,#002059);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dot-lottie {
+    height: 240px;
+    width: 240px;
+    /* display: inline-flex; */
+    /* background-color: #002059; */
+}
+.inlineflex {
+    display: inline-flex;
+    margin-top: 24px;
+}
+
+.picture {
+    width: 400px;
+    height: 500px;
+    border: dotted #b1d8e7;
+    border-radius: 5%;
+    margin: auto 10px;
+}
+
+.about {
+    height: 500px;
+    width: 800px;
+    /* display: inline-block; */
+    padding: 12px auto;
+}
+
+.card {
+    min-width: fit-content;
+    min-height: fit-content;
+    margin: 2vh 3vh;
+    display: inline-block;
+    border: solid #B0C4DE;
+    border-radius: 12px;
+    background-color: #F3F3F3;
+    box-shadow: 6px 6px 6px rgba(176,196,222, 0.6);
+}
+
+.chart {
+    /* width: 300px;
+    height: 300px; */
+    margin: 2vh 2vh;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    /* means: description */
+    font-size: 19px;
+    color: #191970;
+    margin: 1vh 2vh;
+}

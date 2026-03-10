@@ -3,6 +3,7 @@ import React from 'react'
 import './c1.css'
 import TwoPie from '../components/Twopie'
 import LineChart from '../components/LineChart'
+import image from '../assets/react.svg'
 // import {cn} from "./utils"
 
 
@@ -36,9 +37,9 @@ const Dashboard: React.FC = () => {
               <div className='nav'>
           <h4 onClick={go_about} className='h-bar'>About</h4>
           <h4 onClick={go_dashboard} className='h-bar'>Dashboard</h4>
-          <img src="/public/OIP-C.webp" className='img_round' onClick={go_home}></img>
+          <img src={image} className='img_round' onClick={go_home}></img>
           {/* click the img go to the homepage */}
-          <h4 onClick={go_setting} className='h-bar'>Setting</h4>
+          <h4 onClick={go_setting} className='h-bar'>Extra page</h4>
           <h4 onClick={go_contact} className='h-bar'>Contact</h4>
 
         </div>

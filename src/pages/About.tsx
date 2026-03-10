@@ -2,7 +2,10 @@ import { useNavigate } from 'react-router-dom'
 import React from 'react'
 import './c1.css'
 import Coding from '../assets/Coding.svg'
-// import {cn} from "./utils"
+import image from '../assets/react.svg'
+import Aboutus from '../assets/Aboutus.svg'
+import Product from '../assets/Product.svg'
+
 
 
 
@@ -33,9 +36,9 @@ const About: React.FC = () => {
               <div className='nav'>
           <h4 onClick={go_about} className='h-bar'>About</h4>
           <h4 onClick={go_dashboard} className='h-bar'>Dashboard</h4>
-          <img src="/public/OIP-C.webp" className='img_round' onClick={go_home}></img>
+          <img src={image} className='img_round' onClick={go_home}></img>
           {/* click the img go to the homepage */}
-          <h4 onClick={go_setting} className='h-bar'>Setting</h4>
+          <h4 onClick={go_setting} className='h-bar'>Extra page</h4>
           <h4 onClick={go_contact} className='h-bar'>Contact</h4>
 
         </div>
@@ -43,16 +46,32 @@ const About: React.FC = () => {
         <div className='contentBox'> 
         <div className='inlineflex'>
           <img src={Coding} className='picture'></img>
-          <div className='picture'>
-            <h4> Title</h4>
-            <p> This is the example About page.</p>
-            <p> You can place images and content. </p>
-            <p> Telling people more about  </p>
-            <p> The object/ the product/ the things...</p>
+          <div className='about-content'>
+            <h2> About us</h2>
+            We are a team of curious minds united by a shared passion for creativity, innovation, and meaningful connections. Founded on the belief that collaboration fuels progress, we thrive at the intersection of ideas, cultures, and perspectives. Our journey began with a simple question: How can we make a positive impact, one step at a time?
           </div>
         </div>
 
+        <div className='inlineflex'>
+        <div className='about-content'>
+        We are a team of curious minds united by a shared passion for creativity, innovation, and meaningful connections. Founded on the belief that collaboration fuels progress, we thrive at the intersection of ideas, cultures, and perspectives. Our journey began with a simple question: How can we make a positive impact, one step at a time?
+            
         </div>
+          <img src={Aboutus} className='picture'></img>
+          
+        </div>
+
+        <div className='inlineflex'>
+          <img src={Product} className='picture'></img>
+          <div className='about-content'>
+          We are a team of curious minds united by a shared passion for creativity, innovation, and meaningful connections. Founded on the belief that collaboration fuels progress, we thrive at the intersection of ideas, cultures, and perspectives. Our journey began with a simple question: How can we make a positive impact, one step at a time?
+            
+          </div>
+        </div>
+
+
+        </div>
+
 
 
       </div>      
